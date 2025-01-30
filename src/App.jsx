@@ -120,7 +120,7 @@ const WeatherApp = () => {
             muted
             className="absolute top-0 left-0 w-full h-full object-cover -z-10"
           >
-            <source src={`/public/${weather.weather[0].main || "Default"}.mp4`} type="video/mp4" />
+            <source src={`/${weather.weather[0].main || "Default"}.mp4`} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <h2 className="text-3xl font-bold text-center mb-4">
